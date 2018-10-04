@@ -3,6 +3,7 @@ public class Snake{
 
    private int x = 5;
    private int y = 5;
+   
    Scanner s = new Scanner(System.in);
    
    public int getSnakeX(){
@@ -27,7 +28,8 @@ public class Snake{
       }
       if ((imp==1 || imp==2 || imp==3) && y>1){
          y--;      
-      } 
+      }
+      
       System.out.println("Snake Stands on: "+x+","+y);
    }
    /* skal måske bruges!!!
