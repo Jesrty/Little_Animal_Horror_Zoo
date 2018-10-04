@@ -32,12 +32,4 @@ public class Snake{
       
       System.out.println("Snake Stands on: "+x+","+y);
    }
-   /* skal måske bruges!!!
-   public String kill(){
-      if ( (x+1>=getRabbitX() && x-1<=getRabbitX()) & (y+1>=getRabbitY && y-1<=getRabbitY()) ){
-         return "The snake eat the rabbit";
-      }
-   }
-   */
-   
 }
