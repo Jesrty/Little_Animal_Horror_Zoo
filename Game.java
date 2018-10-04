@@ -5,7 +5,7 @@ public class Game{
       int f = 0;
       int turn = 0;
    
-      Rabbit rabbit1 = new Rabbit("");
+      Rabbit rabbit1 = new Rabbit();
       Snake snake1 = new Snake();
       Player p1 = new Player();
       
