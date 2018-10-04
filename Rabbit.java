@@ -26,8 +26,23 @@ public class Rabbit{
    } 
    // Move Rabbit in random direction using +-x and +-y (8 different solutions).
    public void moveRabbit (){
-      x=r.nextInt(3)-1;
-      y=r.nextInt(3)-1;
+      int t=r.nextInt(3)-1;
+      int v=r.nextInt(3)-1;
+      x=x+t;
+      y=y+v;
+      
+      if(x>10){
+      x--;   
+      }
+      if(x<1){
+      x++;
+      }
+      if(y>10){
+      y--;   
+      }
+      if(y<1){
+      y++;
+      }      
       System.out.println(rabbitName+"Rabbit stands on: "+x+","+y);
    }
    
