@@ -6,6 +6,10 @@ public class Rabbit{
    private String rabbitName = "blank";
    Random r = new Random();
          
+   public Rabbit(){
+      x=r.nextInt(10)+1;
+      y=r.nextInt(10)+1;
+   }    
    
    // Move Rabbit in random direction using +-x and +-y (8 different solutions).
    public void moveRabbit (){
